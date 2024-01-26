@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        form {
+            color: white;
+            background-color: rgb(2, 2, 44);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea,
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        textarea {
+            height: 100px;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body background="resimlerr/iletisiiiiim.jpg">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+
+        <nav class="navbar navbar-secondary bg-white">
+            <a class="navbar-brand" href="index.html">
+                <img src="resimlerr/Ekran görüntüsü 2023-12-06 133831.png" width="120" height="30"
+                    class="d-inline-block align-top" alt="">
+
+            </a>
+        </nav>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="iletişim.html"><strong><i><i class="fa-solid fa-square-phone-flip"></i>
+                                İletişim</i></strong> <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="hakkında.html"><strong><i><i class="fa-solid fa-address-card"></i>
+                                Hakkımızda</i></strong></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="ürünler.html"><strong><i><i class="fa-solid fa-basket-shopping"></i>
+                                Ürünlerimiz</i></strong></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link " href="depo.html"><strong><i><i class="fa-solid fa-warehouse"></i>
+                                Depo</i></strong></a>
+                </li>
+            </ul>
+            <div class="dropdown">
+                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                    aria-expanded="false">
+                    Sosyal Medya
+                </a>
+
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#"><i class="fa-brands fa-facebook"></i> - Facebook</a>
+                    <a class="dropdown-item" href="https://www.instagram.com/_melihyaman_/" target="_blank"><i class="fa-brands fa-instagram"></i> - İnstagram</a>
+                    <a class="dropdown-item" href="#"><i class="fa-brands fa-x-twitter"></i> - X</a>
+                </div>
+            </div>
+            <li class="nav-link">
+                <a class="" href=""><strong>
+                        <i class="fa-solid fa-phone"></i> 0555 555 55 55 </i></strong></a>
+            </li>
+            <li class="nav-link">
+                <a class="" href=""><strong>
+                        <i class="fa-solid fa-envelope"></i> akkimya@gmail.com </i></strong></a>
+            </li>
+        </div>
+    </nav>
+    <center>
+
+
+
+        <br><br>
+
+        <form action="mesaj_gonder.php" method="post">
+            <h2>İletişim Formu</h2>
+            <label for="ad">Ad Soyad:</label>
+            <input type="text" id="ad" name="ad" required>
+
+            <label for="email">E-posta Adresiniz:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mesaj">Mesajınız:</label>
+            <textarea id="mesaj" name="mesaj" required></textarea>
+
+            <input type="submit" value="Gönder">
+        </form>
+        </form>
+    </center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
